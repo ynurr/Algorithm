@@ -11,6 +11,6 @@ public class Main {
             result = result + "long ";
         }
 
-        System.out.println(result + "long int");
+        System.out.println(result + "int");
     }
 }
