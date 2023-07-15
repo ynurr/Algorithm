@@ -4,10 +4,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         
-        int n = sc.nextInt(); // 총 금액
+        int n = sc.nextInt();
         String result = "";
 
-        for(int i = 1; i < n/4; i++) {
+        for(int i = 1; i <= n/4; i++) {
             result = result + "long ";
         }
 
