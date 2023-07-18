@@ -6,9 +6,9 @@ public class Main {
 
         int t = sc.nextInt();
 
-		for(int i = 0; i < t; i++) {
+	for(int i = 0; i < t; i++) {
             int r = sc.nextInt();
-			String s = sc.next(); // 공백으로 분리하기 때문에 next()
+	    String s = sc.next(); // 공백으로 분리하기 때문에 next()
 
             for(int j = 0; j < s.length(); j++) {
                 for(int k = 0; k < r; k++) { // r만큼 반복 출력
