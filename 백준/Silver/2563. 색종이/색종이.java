@@ -14,7 +14,7 @@ public class Main {
 
             for(int j = a; j < a+10; j++) { // 크기가 10인 정사각형
                 for(int k = b; k < b+10; k++) {
-                    arr[j][k] = 1;
+                    arr[j][k] = 1; // 색종이가 붙은 검은 영역을 1로 채워준다
                 }
             }
         }
